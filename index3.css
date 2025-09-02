@@ -322,4 +322,32 @@ section {
   height: 100%;
   padding: 10rem;
 }
+.impressum-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 10rem;
+}
+
+/* Make links in card content clearly visible */
+.card a {
+  color: #0645AD; /* standard readable link blue */
+  text-decoration: underline;
+  border-bottom: none; /* override global hover underline-as-border */
+}
+
+.card a:hover,
+.card a:focus,
+.card a:active {
+  color: #0b0080; /* darker on interaction for contrast */
+  text-decoration: underline;
+  border-bottom: none; /* ensure no border appears on hover */
+}
 /*# sourceMappingURL=index3.css.map */
